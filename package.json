@@ -1,0 +1,20 @@
+{
+    "title": "Candy",
+    "name": "candy-theme",
+    "description": "A dark theme by Candy",
+    "version": "1.0.0",
+    "author": "Candy",
+    "homepage": "https://github.com/candyninja001/Bracket-Theme/",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:candyninja001/Bracket-Theme.git"
+    },
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=1.0.0"
+    },
+    "theme": {
+        "file": "theme.css",
+        "dark": true
+    }
+}
