@@ -1,0 +1,176 @@
+/*
+ * Color Scheme
+ * ============
+ */
+.cm-string {
+    color: #E67E22;
+}
+
+.cm-error {
+    background: rgba(255,127,127,0.2);
+    color: #DCCDCE !important;
+}
+
+.cm-meta,
+.cm-comment {
+    color: rgba(255,255,255,0.2);
+}
+
+.cm-atom,
+.cm-number,
+.cm-link {
+    color: #9B59B6;
+}
+
+.cm-property,
+.cm-attribute,
+.cm-keyword {
+    color: #3498DB;
+}
+
+.cm-string.cm-property,
+.cm-variable,
+.cm-variable-2 {
+    color: #DCDDDE;
+}
+
+.cm-variable-3,
+.cm-qualifier,
+.cm-builtin {
+    color: #E74C3C;
+}
+
+.cm-operator,
+.cm-tag {
+    color: #E91E96;
+}
+
+.cm-bracket,
+.cm-def {
+    color: #FFFFFF;
+}
+
+/**
+ * User Interface
+ * ==============
+ *
+ * @TODO Matching words
+ * @TODO Scrollbars
+ * @TODO Find highlights
+ */
+.CodeMirror,
+.CodeMirror .CodeMirror-scroll {
+    background: #2F3136;
+    color: #DCDDDE;
+}
+
+#not-editor,
+#image-holder {
+    background-color: #2F3136;
+    color: #F8F8F2;
+    transition: background-color 0.3s ease-out;
+}
+
+.CodeMirror {
+    border-left-color: #202225;
+}
+
+div.CodeMirror-selected {
+    background: #36393F !important;
+}
+
+.CodeMirror-gutters {
+    background: #202225;
+    border-right: 0px;
+}
+
+.CodeMirror-guttermarker {
+    color: #72767D;
+}
+
+.CodeMirror-guttermarker-subtle {
+    color: #72767D;
+}
+
+.CodeMirror-linenumber {
+    color: #72767D;
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid #DDDDDD !important;
+}
+
+.CodeMirror-activeline-background,
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background: #36393F !important;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    color: #F8F8F2;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
+    color: rgba(79,84,92,.6);
+}
+
+.CodeMirror-matchingbracket {
+    background-color: transparent !important;
+    border-bottom: 1px solid; /* text-decoration: underline does not look that well with large font sizes */
+    color: #DCDDDE !important;
+    padding-bottom: 0.166em;
+}
+
+.CodeMirror-matchingtag {
+    background-color: transparent;
+    border-bottom: 1px solid #DDDDDD; /* text-decoration: underline does not look that well with large font sizes */
+    padding-bottom: 0.166em;
+}
+
+/**
+ * Extensions
+ * ==========
+ */
+
+/*
+ * Brackets-Vim (https://github.com/megalord/brackets-vim)
+ * -------------------------------------------------------
+ */
+.CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor {
+    background: rgba(248, 248, 242, 0.5) !important;
+}
+
+/**
+ * Show Whitespace (https://github.com/DennisKehrig/brackets-show-whitespace)
+ * --------------------------------------------------------------------------
+ */
+.CodeMirror .cm-dk-whitespace-space::before,
+.CodeMirror .cm-dk-whitespace-tab::before,
+.CodeMirror .cm-dk-whitespace-leading-space::before,
+.CodeMirror .cm-dk-whitespace-leading-tab::before,
+.CodeMirror .cm-dk-whitespace-trailing-space::before,
+.CodeMirror .cm-dk-whitespace-trailing-tab::before {
+    background-color: #75715E !important;
+}
+
+/**
+ * Code Folding (https://github.com/thehogfather/brackets-code-folding)
+ * --------------------------------------------------------------------
+ */
+.CodeMirror-foldgutter,
+.CodeMirror-foldgutter,
+.CodeMirror-foldgutter-blank,
+.CodeMirror-foldgutter-folded,
+.CodeMirror-foldgutter-open {
+    color: #75715E;
+}
+
+.CodeMirror-foldgutter-open::after {
+    content: "\25bd";
+}
+
+.CodeMirror-foldmarker {
+    background-color: #333;
+    border-color: #555;
+    color: #555;
+    padding: 0 10px;
+}
